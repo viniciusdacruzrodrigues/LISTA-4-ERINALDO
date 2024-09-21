@@ -1,3 +1,6 @@
+//NOME: VINICIUS DA CRUZ RODRIGUES
+//RA: 242144562
+//TURMA: ESOFT2S-N-D
 programa {
   funcao inicio() {
     inteiro idade
@@ -7,9 +10,9 @@ programa {
     escreva("Digite sua idade: ")
     leia(idade)
     se(idade >= 18)
-    escreva("Voce pode tirar CNH")
+    escreva("O ",nome," pode tirar CNH")
     senao
-    escreva("Você não pode tirar CNH")
+    escreva("O ",nome," nÃ£o pode tirar CNH")
     
 
   }
