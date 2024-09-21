@@ -14,6 +14,8 @@ programa {
   escreva(n1," e maior que ",n2)
   }senao se(n2 > n1){
   escreva(n2," e maior que ",n1)
+  } senao{
+    escreva("Os dois valores são iguais")
   }
     
   }
