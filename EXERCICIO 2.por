@@ -1,3 +1,6 @@
+//NOME: VINICIUS DA CRUZ RODRIGUES
+//RA: 242144562
+//TURMA: ESOFT2S-N-D
 programa {
   funcao inicio() {
   inteiro numero
