@@ -8,6 +8,7 @@ programa {
   escreva("Escreva o mes em numero: ")
   leia(mes)
 
+se(mes >= 1 e mes <=12){
   escolha(mes){
     caso 1:
     escreva("Janeiro")
@@ -37,15 +38,17 @@ programa {
     escreva("Setembro")
     pare
     caso 10:
-    escreva("Fevereiro")
+    escreva("Outubro")
     pare
     caso 11:
-    escreva("Fevereiro")
+    escreva("Novembro")
     pare
     caso 12:
-    escreva("Fevereiro")
+    escreva("Dezembro")
     pare
+   }
+  } senao{
+    escreva("Número inválido")
   }
-    
-  }
+ }
 }
